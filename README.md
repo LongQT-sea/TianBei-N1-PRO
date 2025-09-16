@@ -25,6 +25,6 @@ hostpci0: 0000:00:02.0,legacy-igd=1,romfile=n150_vfio_igd.rom
 * Add the following to the QEMU arguments:
 
   ```
-  -device vfio-pci,host=0000:00:02.0,id=hostpci0,bus=pci.0,addr=0x2,romfile=/usr/share/kvm/vbios_gvt_uefi.rom
+  -device vfio-pci,host=0000:00:02.0,id=hostpci0,bus=pci.0,addr=0x2,romfile=/usr/share/kvm/n150_vfio_igd.rom
   ```
 
