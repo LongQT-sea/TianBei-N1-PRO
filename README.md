@@ -8,7 +8,9 @@
 2. In your VM configuration, instead of using:
    `hostpci0: 0000:00:02.0`
    Use the following line:
-   `hostpci0: 0000:00:02.0,legacy-igd=1,romfile=n150_vfio_igd.rom`
+```
+hostpci0: 0000:00:02.0,legacy-igd=1,romfile=n150_vfio_igd.rom
+```
 
 3. Set **Display** to `None`.
 
